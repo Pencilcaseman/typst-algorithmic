@@ -46,8 +46,6 @@
     )
     let _placement = placement
     let _scope = scope
-    if it.placement != none { _placement = it.placement }
-    if it.scope != "column" { _scope = it.scope }
     if _placement != none {
       place(_placement, scope: _scope, float: true, algo)
     } else {
